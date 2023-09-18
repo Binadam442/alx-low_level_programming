@@ -1,16 +1,17 @@
 #include <stdio.h>
 
-/**
- * _puts - prints a string to stdout
- * @str: pointer to the string to print
- */
 void _puts(char *str)
 {
-	int i;
-
-	for (i = 0; str[i] != '\0'; i++)
+	while (*str != '\0')
 	{
-		_putchar(str[i]);
+		putchar(*str);
+		str++;
 	}
-	_putchar('\n');
+	putchar('\n');
+}
+	int main(void)
+{
+char str[] = "Hello, World!";
+_puts(str);
+return (0);
 }
