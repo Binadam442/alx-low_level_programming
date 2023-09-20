@@ -1,8 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
+/**
+* _strncat - concatenate two strings
+* using at most n bytes from src
+* @dest: input value
+* @src: input value
+* @n: input value
+*
+* Return: dest
+*/
 
 char *_strcat(char *dest, char *src);
-{
+	{
 	int i;
 	int j;
 
