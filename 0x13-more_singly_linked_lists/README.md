@@ -1,1 +1,1 @@
- More singly linked lists
+solution of More singly linked lists
